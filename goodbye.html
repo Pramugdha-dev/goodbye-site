@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Test Image</title>
+    <meta charset="UTF-8">
+    <title>Thank You, Ma’am</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: white;
+            width: 80%;
+            max-width: 900px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid #f4c430;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 32px;
+            color: #333;
+        }
+
+        h2 {
+            margin: 5px 0 25px;
+            font-size: 20px;
+            color: #777;
+            font-weight: normal;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #444;
+            margin-bottom: 30px;
+        }
+
+        .quote {
+            font-size: 20px;
+            font-style: italic;
+            color: #555;
+            border-top: 2px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
-    <img src="./maam.jpg" width="300">
+    <div class="card">
+        <img src="./maam.jpg" alt="Ms Toushali Banerjee" class="photo">
+
+        <h1>Ms Toushali Banerjee</h1>
+        <h2>Our English & Value Education Teacher</h2>
+
+        <p>
+            Thank you for being much more than just our English teacher. From explaining grammar rules 
+            so clearly that even the most confusing ones finally made sense, to bringing literature 
+            stories to life with your expressions and examples, your classes were never boring.  
+            You were never too strict, always ready with a smile, a joke, or a fun comment that made 
+            the classroom feel lighter.  
+            Your creative projects, value education lessons, and those suddenly tricky viva questions 
+            kept us alert and thinking. You always believed in us, cared for us, and made learning feel 
+            meaningful. As we move to Class 9, we carry your lessons, laughter, and kindness with us.  
+            We will truly miss you.
+        </p>
+
+        <div class="quote">
+            “Good teachers teach, great teachers inspire — and you did both.”
+        </div>
+    </div>
 
 </body>
 </html>
